@@ -1,4 +1,4 @@
-Role Name
+Emscripten
 =========
 
 fetch Emscripten from github, build and install
@@ -13,8 +13,10 @@ https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html#pl
 Role Variables
 --------------
 
-emscripten\_path: path to install default value is "/tmp/emsdk"
-emscripten\_version: version identifier default value is "latest"
+```
+emscripten_path: path to install default value is "/tmp/emsdk"
+emscripten_version: version identifier default value is "latest"
+```
 
 Dependencies
 ------------
