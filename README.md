@@ -6,9 +6,7 @@ fetch Emscripten from github, build and install
 Requirements
 ------------
 
-compilers which is required by Emscripten itself
-please see below
-https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html#platform-notes-installation-instructions-sdk
+all required and missing packages will be installed in this role
 
 Role Variables
 --------------
@@ -32,8 +30,8 @@ Example Playbook
 
   roles:
     - emscripten
-    emscripten_path: "/tmp/emsdk"
-    emscripten_version: "latest"
+      emscripten_path: "/tmp/emsdk"
+      emscripten_version: "latest"
 ```
 
 please note, become should be changed depending on your package manager
